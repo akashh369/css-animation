@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+.buffer1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    animation: rotate 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    scroll-behavior: unset;
+}
+.buffer6{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    animation: rotate 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    scroll-behavior: unset;
+    animation-delay: 5s;
+}
+.buffer5{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    animation: rotate 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    scroll-behavior: unset;
+    animation-delay: 4s;
+}
+.buffer4{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    animation: rotate 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    scroll-behavior: unset;
+    animation-delay: 3s;
+}
+.buffer3{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    animation: rotate 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    scroll-behavior: unset;
+    animation-delay: 2s;
+}
+.buffer2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    height: 100px;
+    width: 100px;
+    vertical-align: middle;
+    animation: rotate 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    scroll-behavior: unset;
+    animation-delay: 1s;
+}
+
+@keyframes rotate{
+    0% {transform: rotate(0deg);background-color: blueviolet;left: -700px;}
+    25% {background-color: aqua;}
+    50% {background-color: aquamarine;}
+    75% {background-color: blue;}
+    100% {transform: rotate(359deg);background-color: brown;left: 700px;}
+
+}
+
+body{
+    background-image: linear-gradient(-45deg,rgb(252, 252, 125),pink,rgb(84, 228, 84));
+
+	background-size: 400% 400%;
+
+    animation: changecolor 15s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changecolor{
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
